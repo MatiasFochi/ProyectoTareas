@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+//import logo from './logo.svg';
 import './App.css';
 import freeCodeCampLogo from './imagenes/freecodecamp-logo.png';
 import ListaDeTareas from './componentes/ListaDeTareas';
@@ -9,7 +9,8 @@ function App() {
       <div className='freecodecamp-logo-contenedor'>
         <img 
           src={freeCodeCampLogo}
-          className='freecodecamp-logo' />
+          className='freecodecamp-logo'
+          alt='freecodecamp logo' />
       </div>
       <div className='tareas-lista-pricipal'>
         <h1>Mis Tareas</h1>
