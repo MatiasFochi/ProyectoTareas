@@ -37,12 +37,14 @@
   align-items: center;
   overflow-wrap: anywhere;
   user-select: none;
+  color: white;
 }
 
 .tarea-icono{
   width: 25px;
   height: 25px;
   margin: 5px;
+  color: white;
 }
 
 /* Tarea Complatada */
@@ -50,5 +52,6 @@
 .tarea-contenedor.completada{
   background-color: #5a01a7;
   text-decoration: line-through;
+  text-decoration-color: white;
   user-select: none;
 }
