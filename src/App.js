@@ -19,7 +19,7 @@ function App() {
           <img  className='logo' src = {MFClaro} alt = 'Logo oscuro Matias Fochi' style={{opacity: darkMode ? 1 : 0, transition: 'opacity 1s'}} />
           <img  className='logo' src = {MFOscuro} alt = 'Logo oscuro Matias Fochi' style={{opacity: darkMode ? 0 : 1, transition: 'opacity 1s'}} />
         </a>
-        <button className='btn btn-outline-custom' onClick={cambiarModo}>{darkMode? "Modo noche" : "Modo claro"}</button>
+        <button className='btn btn-outline-custom' onClick={cambiarModo}>{darkMode? "Modo claro" : "Modo oscuro"}</button>
       </div>
       <div className='tareas-lista-pricipal'>
         <h1 className={darkMode ? "titulo-tareas modoOscuro" : 'titulo-tareas'}>Mis Tareas</h1>
